@@ -1,0 +1,173 @@
+<!-- LaserStar Project Section: paste this inside your portfolio where your current PROJECTS section is located -->
+<style>
+  .laserstar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+  }
+
+  .laserstar-card {
+    background: var(--bg3, #161B27);
+    border: 1px solid var(--border, rgba(255,255,255,0.07));
+    padding: 0;
+    overflow: hidden;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+
+  .laserstar-card:hover {
+    border-color: var(--border-accent, rgba(0,229,195,0.25));
+    transform: translateY(-3px);
+  }
+
+  .laserstar-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    border-bottom: 1px solid var(--border, rgba(255,255,255,0.07));
+  }
+
+  .laserstar-card-content {
+    padding: 28px;
+  }
+
+  .laserstar-tag {
+    font-family: var(--font-mono, monospace);
+    font-size: 10px;
+    color: var(--accent, #00E5C3);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  .laserstar-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: var(--text, #E8EDF5);
+    line-height: 1.3;
+  }
+
+  .laserstar-desc {
+    font-size: 14px;
+    color: var(--muted, #7A8699);
+    line-height: 1.7;
+    margin-bottom: 22px;
+  }
+
+  .laserstar-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .laserstar-badge {
+    background: rgba(0,229,195,0.08);
+    border: 1px solid rgba(0,229,195,0.2);
+    color: var(--accent, #00E5C3);
+    font-family: var(--font-mono, monospace);
+    font-size: 10px;
+    padding: 4px 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+</style>
+
+<div class="section-full" id="laserstar-projects">
+  <div class="section-full-inner">
+    <div class="section-label"><em>Work</em></div>
+    <h2 class="section-title">LaserStar <em>Technical Projects</em></h2>
+
+    <div class="laserstar-grid">
+      <div class="laserstar-card">
+        <img src="../images/electrical_eng/ee.png" alt="Motion control box X Y Z axis assembly" class="laserstar-image">
+        <div class="laserstar-card-content">
+          <div class="laserstar-tag">Motion Control · X/Y/Z Axis</div>
+          <h3 class="laserstar-name">Motion Control Box Documentation</h3>
+          <p class="laserstar-desc">Documented and reviewed the motion control box used for X, Y, and Z axis movement, including wiring layout, axis hardware, and schematic reference points for troubleshooting.</p>
+          <div class="laserstar-tech">
+            <span class="laserstar-badge">Motion Control</span>
+            <span class="laserstar-badge">Wiring</span>
+            <span class="laserstar-badge">Schematics</span>
+            <span class="laserstar-badge">Troubleshooting</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="laserstar-card">
+        <img src="images/laserstar/image6.png" alt="Taylor Made laser system wiring and controller" class="laserstar-image">
+        <div class="laserstar-card-content">
+          <div class="laserstar-tag">Laser System · Applied Motion</div>
+          <h3 class="laserstar-name">Taylor Made Laser System</h3>
+          <p class="laserstar-desc">Supported documentation and inspection of the laser system control hardware, including Applied Motion Products STM drive wiring, communication connections, and electrical layout verification.</p>
+          <div class="laserstar-tech">
+            <span class="laserstar-badge">Laser System</span>
+            <span class="laserstar-badge">Stepper Drive</span>
+            <span class="laserstar-badge">I/O Wiring</span>
+            <span class="laserstar-badge">Validation</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="laserstar-card">
+        <img src="images/laserstar/image10.png" alt="Capacitor charger board and wiring assembly" class="laserstar-image">
+        <div class="laserstar-card-content">
+          <div class="laserstar-tag">Power Electronics · Capacitor Charger</div>
+          <h3 class="laserstar-name">Capacitor Charger Assembly</h3>
+          <p class="laserstar-desc">Reviewed capacitor charger hardware and wiring connections, documenting board layout, terminal blocks, power wiring, and component placement for production and service reference.</p>
+          <div class="laserstar-tech">
+            <span class="laserstar-badge">Power Electronics</span>
+            <span class="laserstar-badge">PCB Assembly</span>
+            <span class="laserstar-badge">Terminal Blocks</span>
+            <span class="laserstar-badge">Documentation</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="laserstar-card">
+        <img src="images/laserstar/image15.png" alt="Laser control board PCB inside system" class="laserstar-image">
+        <div class="laserstar-card-content">
+          <div class="laserstar-tag">PCB Diagnostics · Laser Boards</div>
+          <h3 class="laserstar-name">Laser Board Inspection</h3>
+          <p class="laserstar-desc">Performed visual inspection and documentation of laser control boards, connectors, wiring harnesses, and board-level interfaces used in laser system operation.</p>
+          <div class="laserstar-tech">
+            <span class="laserstar-badge">PCB Testing</span>
+            <span class="laserstar-badge">Connectors</span>
+            <span class="laserstar-badge">Harnesses</span>
+            <span class="laserstar-badge">Diagnostics</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="laserstar-card">
+        <img src="images/laserstar/image17.png" alt="Joystick interface PCB" class="laserstar-image">
+        <div class="laserstar-card-content">
+          <div class="laserstar-tag">Controls · Joystick Interface</div>
+          <h3 class="laserstar-name">Joystick Control Board</h3>
+          <p class="laserstar-desc">Documented joystick interface hardware, including control board connections, DB connector interface, signal wiring, and board layout for troubleshooting axis movement issues.</p>
+          <div class="laserstar-tech">
+            <span class="laserstar-badge">Control Board</span>
+            <span class="laserstar-badge">Signal Wiring</span>
+            <span class="laserstar-badge">DB Connector</span>
+            <span class="laserstar-badge">Axis Control</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="laserstar-card">
+        <img src="images/laserstar/image20.png" alt="Joystick resistance test using Fluke multimeter" class="laserstar-image">
+        <div class="laserstar-card-content">
+          <div class="laserstar-tag">Test Engineering · Joystick Validation</div>
+          <h3 class="laserstar-name">Joystick Electrical Testing</h3>
+          <p class="laserstar-desc">Validated joystick switch and axis behavior using a digital multimeter, measuring electrical resistance and verifying expected operation for troubleshooting and pass/fail testing.</p>
+          <div class="laserstar-tech">
+            <span class="laserstar-badge">DMM Testing</span>
+            <span class="laserstar-badge">Resistance</span>
+            <span class="laserstar-badge">Validation</span>
+            <span class="laserstar-badge">Root Cause</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
